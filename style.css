@@ -1,0 +1,57 @@
+header h1 {
+    font-size: 52px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header {
+    background-color: #0B1C51;
+    margin-bottom: 40px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav ul li a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+header nav ul li:last-child a {
+    margin-right:0;
+  }
+
+@media all and (min-width: 600px) {
+
+    header h1 {
+        font-size: 48px;
+        margin: 14px 0;
+        padding-top: 0;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    header nav {
+        margin-top: 17px;
+    }
+
+    header nav ul li a:hover {
+        color:aqua;
+    }
+}
